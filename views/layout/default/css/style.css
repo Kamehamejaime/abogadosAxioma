@@ -1,0 +1,118 @@
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+/***************navBar****************/
+.navbar {
+    background-color: #00365e;
+}
+
+    .navbar .container img {
+        margin-right: 5rem;
+    }
+
+.nav-link {
+    color: white;
+}
+
+    .nav-link:hover {
+        color: cyan;
+        border-color: #00365e;
+    }
+
+.collapse ul li {
+    float: right;
+}
+
+/************Footer*******************/
+
+.d-flex {
+    justify-items: center;
+}
+
+.py-3 {
+    color: black;
+}
+
+footer {
+    background-color: #00365e;
+    color: white;
+    height: 30em;
+}
+
+    footer p {
+        display: flex;
+        justify-items: center;
+    }
+
+    footer .my-4 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+.container d-flex {
+    background-color: #00365e;
+    margin: 0;
+}
+/*************************************/
+
+
+/*************Carusel****************/
+
+.carousel-inner {
+    margin-bottom: 80px
+}
+
+.myCarousel img {
+    height: 80rem;
+    width: 100%;
+}
+
+
+/*********************************/
+
+.asesoria-title {
+    color: #00365e;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+/*section .card img{
+    margin: 0px;
+
+}
+    */
+.card-container {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+
+.card-body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
